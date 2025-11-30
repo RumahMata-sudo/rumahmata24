@@ -1,10 +1,11 @@
-# RumahMata24
 
-Situs portal berita RumahMata24 (versi statis).
+RumahMata24 — Portal Berita (Model Elegan)
 
-Cara hosting:
-- GitHub Pages
-- Netlify
-- Vercel
+Upload ke GitHub Pages:
+1. Ekstrak ZIP 'rumahmata24_portal_elegant.zip'
+2. Upload semua file (index.html, artikel1..3, gaya.css, skrip.js, images/) ke repo rumahmata24
+3. Commit & tunggu ~30 detik
+4. Buka: https://RumahMata-sudo.github.io/rumahmata24
 
-Silakan edit konten sesuai kebutuhan.
+Atau gunakan Netlify (drag & drop).
+

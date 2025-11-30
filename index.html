@@ -1,20 +1,136 @@
-<!DOCTYPE html><html><head>
-<meta charset="UTF-8"><title>RumahMata24</title>
-<link rel="stylesheet" href="gaya.css">
-</head><body>
-<header><img src="logo.svg" alt="Logo" height="40"></header>
-<nav>
-<a href="index.html">Beranda</a>
-<a href="artikel1.html">Artikel 1</a>
-<a href="artikel2.html">Artikel 2</a>
-<a href="artikel3.html">Artikel 3</a>
-</nav>
-<div class="container">
-<h2>Berita Utama</h2>
-<div class="article-card"><a href="artikel1.html">Baca Artikel 1</a></div>
-<div class="article-card"><a href="artikel2.html">Baca Artikel 2</a></div>
-<div class="article-card"><a href="artikel3.html">Baca Artikel 3</a></div>
-</div>
-<footer>© 2025 RumahMata24</footer>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>RumahMata24 — Portal Berita Elegan</title>
+  <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <img src="images/logo.svg" alt="logo">
+        <div>
+          <div style="font-family:Georgia, serif;font-size:16px;color:#333;font-weight:700">RumahMata24</div>
+          <div id="today" class="subtle"></div>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="#">Beranda</a>
+        <a href="#">Nasional</a>
+        <a href="#">Internasional</a>
+        <a href="#">Ekonomi</a>
+        <a href="#">Budaya</a>
+        <a href="#">Opini</a>
+      </nav>
+    </header>
+
+    <div class="topline">
+      <div class="subtle">Terpercaya & Independen</div>
+      <div class="subtle">Hubungi: redaksi@rumahmata24.id</div>
+    </div>
+
+    <section class="hero">
+      <div class="hero-main">
+        <img src="images/hero.jpg" alt="headline">
+        <div class="content">
+          <h1 style="margin:0;font-family:Georgia, serif;">Wawancara Eksklusif: Strategi Pemberdayaan Ekonomi Lokal</h1>
+          <p class="meta" style="margin-top:8px">Oleh Redaksi — 24 November 2025</p>
+          <p style="margin-top:12px;color:#333">Diskusi mendalam bersama pemangku kebijakan mengenai langkah nyata pemberdayaan ekonomi di daerah.</p>
+          <p style="margin-top:12px"><a href="artikel1.html">Baca selengkapnya →</a></p>
+        </div>
+      </div>
+
+      <aside class="hero-side">
+        <div class="card">
+          <h3 class="section-title">Populer</h3>
+          <div class="list-articles">
+            <div class="article-item">
+              <img src="images/thumb1.jpg" alt="">
+              <div>
+                <a href="artikel2.html"><strong>Menggagas UMKM Digital</strong></a>
+                <div class="meta">Bisnis — 23 Nov</div>
+              </div>
+            </div>
+            <div class="article-item">
+              <img src="images/thumb2.jpg" alt="">
+              <div>
+                <a href="artikel3.html"><strong>Inovasi Pertanian Ramah Lingkungan</strong></a>
+                <div class="meta">Agrikultur — 22 Nov</div>
+              </div>
+            </div>
+            <div class="article-item">
+              <img src="images/thumb3.jpg" alt="">
+              <div>
+                <a href="#"><strong>Analisis Politik Terkini</strong></a>
+                <div class="meta">Nasional — 21 Nov</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="section-title">Newsletter</h3>
+          <p class="meta">Dapatkan ringkasan setiap pagi.</p>
+          <form id="subscribe-form">
+            <input type="email" id="email" placeholder="email@contoh.com" required style="padding:8px;border:1px solid #ddd;border-radius:4px;width:100%">
+            <button type="submit" style="margin-top:8px;padding:8px 12px;background:#0b3d91;color:#fff;border:none;border-radius:4px">Langganan</button>
+          </form>
+          <p id="sub-msg" class="meta"></p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <main>
+        <h2 class="section-title">Terbaru</h2>
+        <div class="card article-card">
+          <h3><a href="artikel1.html">Pelatihan Totok Terapi untuk Kesehatan Mental</a></h3>
+          <p class="meta">Gunung Mas — 24 Nov 2025</p>
+          <p>Pelatihan ini memberikan pelatihan praktik yang dapat diadopsi oleh masyarakat setempat sekaligus membuka peluang usaha baru.</p>
+        </div>
+
+        <div class="card article-card">
+          <h3><a href="artikel2.html">Budidaya Jamur Tiram: Peluang Usaha untuk Pemuda</a></h3>
+          <p class="meta">Disdikpora — 23 Nov 2025</p>
+          <p>Pelatihan di Aula Hotel Zefanya membuka wawasan bagi pemuda lokal.</p>
+        </div>
+
+        <div class="card article-card">
+          <h3><a href="artikel3.html">Iceu Purnamasari Ajak Pemuda Kenali Potensi Diri</a></h3>
+          <p class="meta">DPRD Gumas — 22 Nov 2025</p>
+          <p>Aksi nyata untuk mengembangkan potensi wirausaha pemuda.</p>
+        </div>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3 class="section-title">Kolom Opini</h3>
+          <p class="meta">Pendapat Redaksi</p>
+          <p>Opini singkat mengenai dinamika politik dan ekonomi saat ini.</p>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3 class="section-title">Kategori</h3>
+          <p><a href="#">Nasional</a> · <a href="#">Ekonomi</a> · <a href="#">Budaya</a></p>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> {brand} — Semua hak cipta dilindungi.</div>
+      <div class="subtle">Ikuti kami: Twitter · Facebook · Instagram</div>
+    </footer>
+
+  </div>
+
 <script src="skrip.js"></script>
-</body></html>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+var subForm = document.getElementById('subscribe-form');
+if(subForm){ subForm.addEventListener('submit', function(e){ e.preventDefault(); document.getElementById('sub-msg').textContent='Terima kasih — demo langganan.'; }); }
+</script>
+</body>
+</html>
