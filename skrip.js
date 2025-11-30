@@ -1,0 +1,1 @@
+console.log('RumahMata24 Loaded');
